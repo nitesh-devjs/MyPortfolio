@@ -501,9 +501,14 @@
   }
   
   .skills-content .right .bootstraps::before {
-    width: 50%;
+    width: 90%;
   }
-  
+  .skills-content .right .reactjs::before{
+    width: 75%;
+  }
+  .skills-content .right .tailwindcss::before{
+    width: 75%;
+  }
   /* .skills-content .right .django::before { 
     width: 70%;
   }
@@ -583,6 +588,10 @@
   }
   
   /*  Contact  */
+  .contact {
+  margin-bottom: 0;
+}
+
   .contact {
     background: radial-gradient(#e1efff, white);
   }
@@ -784,21 +793,24 @@
   }
   
   /*  Footer  */
-  footer {
-    background: #111;
-    padding: 6px 16px;
-    color: #888c8d;
-    text-align: center;
-  }
-  
-  footer span a {
-    color: #1e3551;
-    text-decoration: none;
-  }
-  
-  footer span a:hover {
-    text-decoration: underline;
-  }
+  .footer {
+  width: 100%;
+  background-color: #111;
+  padding: 25px 0;
+  text-align: center;
+  margin-top: 0;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer span {
+  color: #fff;
+  font-size: 14px;
+}
+
   
   /*  Media Query  */
   @keyframes pulsate {
