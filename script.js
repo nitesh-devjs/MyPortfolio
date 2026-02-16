@@ -44,7 +44,8 @@ $(document).ready(function () {
         "Software Developer",
         "Python Developer",
         "Java Developer",
-        "JavaScript Developer"
+        "JavaScript Developer",
+        "React JS"
       ],
       typeSpeed: 100,
       backSpeed: 60,
